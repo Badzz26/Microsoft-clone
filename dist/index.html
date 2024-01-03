@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Microsoft - Cloud, Computers, Apps & Gaming</title>
+    <link rel="stylesheet" crossorigin href="/assets/index-CqvV27C1.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div
+      class="navbar flex justify-between items-center py-1 md:py-2 pr-4 md:px-8 lg:px-14"
+    >
+      <div class="flex justify-center items-center md:order-2">
+        <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+          <div class="line h-0.5 my-1 w-6 bg-black"></div>
+          <div class="line h-0.5 my-1 w-6 bg-black"></div>
+          <div class="line h-0.5 my-1 w-6 bg-black"></div>
+        </div>
+        <div class="search md:hidden">
+          <svg
+            class="h-6 w-6 text-gray-500"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+        </div>
+      </div>
+      <div class="logo text-center flex md:order-1">
+        <div class="p-2 w-32">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANgAAAAuCAYAAABK69fpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTMyIDc5LjE1OTI4NCwgMjAxNi8wNC8xOS0xMzoxMzo0MCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTAwQkM2Mzk4NDBBMTFFNjhDQkVCOTdDMjE1NkM3RkQiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTAwQkM2Mzg4NDBBMTFFNjhDQkVCOTdDMjE1NkM3RkQiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUuNSAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBMkM5MzFBNDcwQTExMUU2QUVERkExNDU3ODU1M0I3QiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBMkM5MzFBNTcwQTExMUU2QUVERkExNDU3ODU1M0I3QiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgQJy/MAAAxESURBVHja7FwNlFVVFT6PN8MMM8AIjPxomEyggCYgajIaguCkaC5AEocif9CIiLLyp9IMC9NgVRqrGpMSwcFSIs3URHERJoJCSlIgMQk0YCS/MjAww8zrbO/36rz99rnvzpt3Z6Z551trL5hz3z3n3HPO/t/3Rg6NL6lXIeCWXhfk0r99Ji05Hkb/IxojI8vK6lfbrk+fPl05OLQ2OrglcHBwDObg4BjMwcHBMZiDg2MwBwfHYA4ODr7IaW8PNOfliNryeKnqpM50u+vQXJRoGqlpmKZiTUc0HdT0hKa1Wclg+9/urWqqe6pOPf8vpjtYU39Nb4Mc2g6+oukWTSdZLL/sZLDDu4tU/ZE82+VZmko1NQgL9oymymYMPUTT7ZoaWXtU0wuafmm00QS/p+kLmvIhGedpmu3OdauDCiR+gLNiw7GsNRE75DSqSIeY7fJYTVdarp2u6TeajqY5NDFXueXaUcZgozV91fi7QNNdml7U9Cd3xlsVs1IwV1xAZieDpYCf5DlD0wWaVqTRbz9Nl/hcr2N/jxJ+E8H4jsFaD700fVFo365pIfwvcu7/xq53hWV0tqalmrZkK4OlkkrXpMlgE+EEB8V6S/tf3Ta0KiiYcSpre1fT5WxvOkAgfkLTJAjG09D+sslgLkyfiAlNZJQ4Y05t4j2/1/QQa7tf0x/cFrQqBoFxTDwpCD7ysztqukfTNE0DwUs13L93GiwRPTRN0fTjJtxThgBHU1CraYamRzSdrOmfmtZoirktaFU0Cm1vNMH0z3ofLAhI5T+ogkeKbhA2KYhlQJLuFbfcbZ7B6n32L2ZpdwwG7NB0GKZBHOdqGqqC5TnINLiIta1IEfDgdnwcMcsGSyhSXn6mGHtI972vaZem3QHHihkHpLumPvh/NZx5G05AMID+LcAB3K/pPU3/TmMPOmk6BX1SSuM4xv9XE/ujQENvzKsQ/dC89qCvVPvQgPE5cvFvlK1frkWQJvw+2xmMwucLNX3faKO81OSADEZBkW7G3xs1PRuAwegw/QSMorDBFJn6cgozcQhMy3OUV2XQjUnarZr+oulhTc8bG/5d3BMzJPUEHJA7NV2K/mJ4bko37GVjj0H7UAQCehjXDoExyZz6tabfBVg7YuqZCBQMZP1RXnAb5vINi9CI43xN12oarrxorulD12BemzUtUV4FBmfue5UXGazHGnDcrLwgVg5jsCjmzfv7oaZ9uB7Jdgaj518OM+90ZibehQ2yoQAba4LyaDsDjFuIyFS+0XYiGC1mOYxzNF3P7uGScxCIDtpKmLnERBTlupD9/sOafqqSUwbn4qDEQZryATBk1DJ2F2PscgQGvqbpHcvvidkpL/hRn7UdDJpvYbBiY006WvrpDCYgGg/rgnJcm4z9vwhCw4b4PIIgivVLUI/ZDNqYKhwIE30htfxwhUoM6RIzPi5EoWy2PmfeI5bfUtHXUmiu/IDPFROCKnys+5Scj6s17ieN+RIETjTg2BEw43ImtOIgbbHMh7lMHLOYzb2wJtN9mEvCGGj2YQHWPSPIdgaL4OBUCs7sZJ9DRe3Xsbb1MPMKMqxhf6a8yg8J+2CWvpXCjJI0xJU+QqcePs3DFiZR0E5kjm63XKcaywWGGRxftzkQYDwa9xLM6xWGeZonCCxqe0TwfePYjnnZtGdfCMJijFsYtomU7cjHAaV6wXFG+2iYBm8J9wwTDv2CEOY2zaJJKaw/D1piHzQOOffnKa9ANa8JwvN5+Ey1eN5SaI3bmKSP42n4GVW4pwD+z23wh0xcCC0zF3+XwFzlUbcvwWSsh6lbAu06Q2CwuN/GQRHZu5VXNH0EZu5H4GOOEZifinnvgKDsargGvEyK5v6MRRA9wMzHWqz/xv8yWPzrT2Hh3aVT0mbiiopFTb6nIT0tpiCtxzGHdaKFwa5h5to2I6iQKXTHAeDYAH9iG2vfgyAHMcDFKlhObTYOJT84A5Rcj0fpi88L7Tvg8y0TzM6bNP1c0wFNH1LJify16NcM1sTfLljErIhuYEaOF2Bx7BcE0ToEOD7Jrt2AQNObzN/iIG24yrJ+fDyKXK42+2x3JmLj3/Ue5qb1pbiVKvmVkc+o5MLOIjCYid8qL0ydSVwmmFLkt00VmEuxiN5TKnXRMh2a7wjtdZD4XVn7VkT0lM9hmyH4NKQtzjKEGWf8bsJYpkYwfdUyBGdMvAdm2W/powbz4vvTG9qam5+ShSMhT3AhItxFyFkwcn5DGAf9xlWzPhi8YuKSurQ7Wb7EfklFRknfRbxiQLWav+vEdEbbA0b5utHWDwf9Saa9TmaOeGUIS3ip0PaQRaOmgwU+Wk7ybxb6HOI4NkNQjWPtI8DQVNf3PvPLKPL4nPKitqnqQKWgDEVuq1PctxN7eBNrH4tgiQtyhGgimlikEstfSEhcbawTmU9T2D2vKnvxbrrIRbTNBDFDpmoV4/kuG3h+h3yyNQH7flVoiyfyqyzjlsLPIQYrhz8pYbBFEwfB60LbSWGfR1fsm4hNsOdNXG6YauT0f0xgykzjBJWYRI5r2OoM9d/oo41Iu3QRzMaDAfuWoopRo59vKa96RjK5Loa/RO/FfVYwvwqF5wgaPd0ltJ3iGKzlsUAl5l66woEmXMvs9G0qnAp4qWzqqErOZ4Wx95SczWnGWWmwPE8crykvT+b3ag5FJSkUP9dgziLBV2tUwcvLpJRLgWOwlgdJT/5C3VXKSypfleQKen5FphFRyeHpQhVyzgY4LvhmERW80r9TgN+QlUBpjtnKi/TZcKv6X9TwkEXzRZrxrNWOwVoeNYLjS5EwKisqZlL5FyHNoVbQBN1bwqRRXoHtQcF8C/qe3AChTSq2pagepQjoTfLPKS+cLoG+W9IT68EjlDkq+QVJG/oHNGcdg7UAHmXmGPlDl7H1WgVzJywmlzZ/Ugs8OwmOrUJ7WcDzJEU/1/ncQ5qJoqOUGpgnmHyUdD4N/98s3H9JwOcaK7S9FsLaxRyDpcY/lPfWsZ8ZsjjkOSwX2iiCWdoCwvNpoW1qAA1KTHiWwECvBJgThe+pGmSt8BwFhvnOQcUA56eY1wiBwSi9sroZa9QgCIMc7us5BrNLokofB3q7Cv/1/idUckEwmWqPQZsqi9P+aQRq8poxNvlIe1hbDwQeSnwO8YOCMHrU8FM/DvN7UAofkO9F3PeiMP47wprQ8w6z9EftVKWTKwiwjc30VQ8I/ucYznEO9kNGSd0hlms7Qx6ftCh9n+/brJ20yLNgNPrAShWk5lAwHh3iDSp4dE3CNuWVN32TtY/S9EeM/QYCFKdCg0xRyamFvczsy0OgiOZJCWIq8H0Tfh8l9amciadBdhhMRb+jOsj57DdngPkoxL8G8+8L5qJwfy/Bx71HNTttKqYIbgZf0ToNdAxmxxFosSGCRF3cQnOgV0rOVMnRS0I5qA5aI5cdoOaCXkQ8TzCtqJ7wVmONCnxMqFlM4zQamnYqiAIqlILoYumL8oxmDqsCQuRq9jti7pkgv3nR/t2hAn6ZNwWoOuR61kY5zDuxRnnORPTHYyo5okYSsqW+XUgH7zrllXDZ0FEwfzKR36mB9PcrYi7w8aemYf1MSLmoImgYqS8yw+cKphnVHv4qjXkdg4b5UYb25zkfRs1rlz5YLBbxS9h0FqSN3xqQGchfVahMYX5Jvk+h4LjzcqCuPgf9U8p7vSLI9+spqLBSJZZ8dREOepC9J9+JXiy9PeDYtfCxRsJf49inguUNyfSi98bGK/mt8sMwSamIN8i3JOuxJlSV4/fFsPyA+2n2e6NKrMhX7doH65jToKIRK4vRtykWMjNwb4pgB6n7pwyzJ1VBKkn8yaytSjhAk9jm7VX2ZC6Nez80Ah1ees+K6vK64x7SdFvge1HEbh07BMQgvdlz7Q+4pMehRYhhRiOYQS9h9oSgOYbno0O2WvnXLK5HH2fD9Ka3mvsY/WyEb0f+y6YAgagKBIOoxGo4668OPuKfsSarA/ily4Qgyusp7qE5U2piAnzUAUZgZkMkWnmg7VbT+8BWTd/wYgc1c/FYFcvv197N14hhcjWlZChTyDEOekMb6Ces/tId/4M9aXcmYjQaU+XnbM4G/zAG7XK8FZhLGWM3tJF+wuov3fEb26UPRss6vP9u5eDQFtD+GEzLjc6d69zOOjgGCw21bmMdHIM5ODgGc3BwcAzm4NAm8R8BBgAGrc+T79nGEQAAAABJRU5ErkJggg==" alt="" />
+        </div>
+        <div
+          class="features absolute md:static w-fit md:w-auto bg-gray-100 md:bg-white inset-0 md:flex md:mx-4 md:space-x-5 -translate-x-96 md:-translate-x-0 justify-center items-center"
+        >
+          <a class="feature_item text-sm cursor-pointer hover:border-b-2 hover:border-black">Teams</a>
+          <a class="feature_item text-sm cursor-pointer hover:border-b-2 hover:border-black">Microsoft 365</a>
+          <a class="feature_item text-sm cursor-pointer hover:border-b-2 hover:border-black">Copilot</a>
+          <a class="feature_item text-sm cursor-pointer hover:border-b-2 hover:border-black">Windows</a>
+          <a class="feature_item text-sm cursor-pointer hover:border-b-2 hover:border-black">Surface</a>
+          <a class="feature_item text-sm cursor-pointer hover:border-b-2 hover:border-black">Xbox</a>
+          <a class="feature_item text-sm cursor-pointer hover:border-b-2 hover:border-black">Support</a>
+        </div>
+      </div>
+      <div class="logo text-center text-sm flex space-x-4 md:order-3">
+        <div class="search hidden md:flex md:flex-row md:space-x-5">
+          <div class="cursor-pointer hover:border-b-2 hover:border-black">
+            <select name="features" id="">
+              <option value="">All Microsoft</option>
+              <option value="">Software</option>
+              <option value="">PC & Devices</option>
+              <option value="">Entertainment</option>
+              <option value="">Business</option>
+              <option value="">Other</option>
+            </select>
+          </div>
+          <div class="flex space-x-2">
+            <div class="hover:border-b-2 cursor-pointer hover:border-black">Search</div>
+            <svg
+              class="h-6 w-6 text-gray-500 cursor-pointer"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+          </div>
+        </div>
+        <div class="flex flex-row space-x-5">
+          <div class="cart flex space-x-2">
+            <div class="hidden md:block cursor-pointer hover:border-b-2 hover:border-black">Cart</div>
+            <svg
+              class="h-6 w-6 text-gray-500 cursor-pointer"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="9" cy="21" r="1" />
+              <circle cx="20" cy="21" r="1" />
+              <path
+                d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+              />
+            </svg>
+          </div>
+          <div class="account flex md:space-x-2">
+            <div class="hidden md:block cursor-pointer">Sign in</div>
+            <svg
+              class="h-6 w-6 text-gray-500 cursor-pointer"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Assistance -->
+    <div
+      class="text-white bg-[#0067b8] p-6 md:py-4 font-semibold flex justify-center items-center"
+    >
+      <a class="hover:underline" href="#">
+        Require assistance with Microsoft 365? Call 0008004402127 to inquire or
+        make a purchase.
+      </a>
+      <div
+        class="flex px-2 justify-center items-center md:justify-start md:items-start md:px-0 md:pl-2"
+      >
+        >
+      </div>
+    </div>
+
+    <!-- Slider -->
+    <div class="slider flex flex-col-reverse mx-1 md:flex-row md:mx-1">
+      <div
+        class="left flex flex-col md:justify-center md:items-center bg-[#c2e1fe] space-y-3 py-5 shadow-md md:pl-32 md:shadow-none md:space-y-5"
+      >
+        <h1 class="text-2xl font-semibold mx-7 md:text-4xl md:w-96">
+          Maximise the everyday with Microsoft 365
+        </h1>
+        <p class="mx-7 md:w-96">
+          Get online protection, secure cloud storage and innovative apps
+          designed to fit your needs - all in one plan.
+        </p>
+        <!-- <div class="py-8 space-x-4 md:space-x-0"> -->
+        <button
+          class="bg-[#0067b8] text-sm text-white px-3 py-2 font-bold self-start mx-7"
+        >
+          For one person
+        </button>
+        <button class="text-[#0067b8] text-sm font-bold self-start mx-7">
+          For up to six people >
+        </button>
+        <!-- </div> -->
+      </div>
+      <div class="right">
+        <img class="" src="/assets/MS365-gFDkIMZ5.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- Promotion -->
+    <div
+      class="promo flex flex-col justify-center items-center my-10 space-y-10 md:space-y-0 md:pt-10 md:space-x-11 text-[#0067b8] underline md:flex-row flex-wrap"
+    >
+      <div class="item flex flex-col justify-center items-center">
+        <img
+          class="w-10 mb-1 md:mb-3"
+          src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_2'%20data-name='Layer%202'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20120%20120'%3e%3cdefs%3e%3cstyle%3e%20.cls-1%20{%20fill:%20%231a1a1a;%20}%20.cls-1,%20.cls-2%20{%20stroke-width:%200px;%20}%20.cls-2%20{%20fill:%20none;%20}%20%3c/style%3e%3c/defs%3e%3cg%20id='MSCOM_Icons'%20data-name='MSCOM%20Icons'%3e%3cg%20id='Link-List-Icons-Microsoft-365'%3e%3cg%20id='Bounding_Box'%20data-name='Bounding%20Box'%3e%3crect%20class='cls-2'%20width='120'%20height='120'/%3e%3c/g%3e%3cpath%20class='cls-1'%20d='m57.23,15v42.23H15V15h42.23Zm0,47.77v42.23H15v-42.23h42.23ZM105,15v42.23h-42.23V15h42.23Zm0,47.77v42.23h-42.23v-42.23h42.23Z'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
+          alt="Microsoft 365"
+        />
+        <span class="font-bold">Choose your Microsoft 365</span>
+      </div>
+      <div class="item flex flex-col justify-center items-center">
+        <img
+          class="w-10 mb-1 md:mb-3"
+          src="/icons/Link-List-Icons-Xbox-Games-Consoles.svg"
+          alt=""
+        />
+        <span class="font-bold">Shop Xbox games and consoles</span>
+      </div>
+      <div class="item flex flex-col justify-center items-center">
+        <img
+          class="w-10 mb-1 md:mb-3"
+          src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_2'%20data-name='Layer%202'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20120%20120'%3e%3cdefs%3e%3cstyle%3e%20.cls-1%20{%20fill:%20%231a1a1a;%20}%20.cls-1,%20.cls-2%20{%20stroke-width:%200px;%20}%20.cls-2%20{%20fill:%20none;%20}%20%3c/style%3e%3c/defs%3e%3cg%20id='MSCOM_Icons'%20data-name='MSCOM%20Icons'%3e%3cg%20id='Link-List-Icons-Microsoft-365'%3e%3cg%20id='Bounding_Box'%20data-name='Bounding%20Box'%3e%3crect%20class='cls-2'%20width='120'%20height='120'/%3e%3c/g%3e%3cpath%20class='cls-1'%20d='m57.23,15v42.23H15V15h42.23Zm0,47.77v42.23H15v-42.23h42.23ZM105,15v42.23h-42.23V15h42.23Zm0,47.77v42.23h-42.23v-42.23h42.23Z'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
+          alt=""
+        />
+        <span class="font-bold">Get Windows 11</span>
+      </div>
+      <div class="item flex flex-col justify-center items-center">
+        <img
+          class="w-10 mb-1 md:mb-3"
+          src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_2'%20data-name='Layer%202'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20120%20120'%3e%3cdefs%3e%3cstyle%3e%20.cls-1%20{%20fill:%20%231a1a1a;%20}%20.cls-1,%20.cls-2%20{%20stroke-width:%200px;%20}%20.cls-2%20{%20fill:%20none;%20}%20%3c/style%3e%3c/defs%3e%3cg%20id='MSCOM_Icons'%20data-name='MSCOM%20Icons'%3e%3cg%20id='Link-List-Icons-Surface-Devices'%3e%3cg%20id='Bounding_Box'%20data-name='Bounding%20Box'%3e%3crect%20class='cls-2'%20width='120'%20height='120'/%3e%3c/g%3e%3cg%20id='Surface_Icon'%20data-name='Surface%20Icon'%3e%3cg%3e%3cpath%20class='cls-1'%20d='m105.01,84.51s-.07,0-.1,0l-12.15-.02c-1.1,0-2-.9-2-2,0-1.1.9-2,2-2h0l12.19.02c.61,0,.87-.39.95-.57.08-.18.23-.63-.15-1.07-.05-.06-.1-.12-.14-.18l-12.05-17.59c-.62-.91-.39-2.16.52-2.78.91-.62,2.16-.39,2.78.52l11.99,17.51c1.24,1.5,1.5,3.52.67,5.29-.83,1.78-2.55,2.87-4.51,2.87Z'/%3e%3cpath%20class='cls-1'%20d='m87.63,90.29H16.89c-1.95,0-3.81-.83-5.12-2.28-1.31-1.45-1.94-3.4-1.74-5.34l4.95-46.79c.37-3.52,3.32-6.17,6.86-6.17h70.68c1.95,0,3.82.83,5.12,2.28,1.31,1.45,1.94,3.39,1.74,5.33l-4.89,46.79c-.37,3.52-3.32,6.18-6.86,6.18ZM21.84,33.71c-1.49,0-2.73,1.11-2.88,2.59l-4.95,46.79c-.09.83.17,1.62.73,2.24.56.62,1.32.96,2.15.96h70.74c1.49,0,2.73-1.12,2.88-2.6l4.89-46.79c.09-.82-.17-1.62-.73-2.23-.56-.62-1.32-.96-2.15-.96H21.84Z'/%3e%3cpath%20class='cls-1'%20d='m56.79,42.05c-1.1,0-2-.9-2-2s.89-2,1.99-2h.01c1.1,0,2,.9,2,2s-.9,2-2,2Z'/%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
+          alt=""
+        />
+        <span class="font-bold">Explore Surface devices</span>
+      </div>
+    </div>
+
+    <!-- Products -->
+    <div
+      class="products flex flex-col p-3 space-y-10 md:flex-row md:p-0 md:py-10 md:space-y-0 md:space-x-12 md:justify-center"
+    >
+      <div class="item flex flex-col space-y-2 md:w-1/5">
+        <div class="bg-[#f2f2f2] p-12 md:px-10 md:py-5">
+          <img
+            class="self-center mx-auto md:w-3/4"
+            src="/assets/surfaceLaptop5-4NzXDWH7.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="text-xl font-semibold md:text-3xl">Surface Laptop 5</div>
+        <p>
+          Sophisticated style and multitasking speed powered by 12th Gen Intel®
+          Core, with Windows 11.
+        </p>
+        <button class="self-start py-3 text-[#0067b8] font-medium hover:underline">
+          Learn more >
+        </button>
+      </div>
+      <div class="item flex flex-col space-y-2 md:w-1/5">
+        <div class="bg-[#f2f2f2] p-12 md:px-10 md:py-5">
+          <img
+            class="self-center mx-auto md:w-3/4"
+            src="/assets/XboxSeriesX-7DGxaoom.png"
+            alt=""
+          />
+        </div>
+        <div class="text-xl font-semibold md:text-3xl">Xbox Series X</div>
+        <p>The fastest, most powerful Xbox ever.</p>
+        <button class="self-start py-3 text-[#0067b8] font-medium hover:underline">
+          Shop Xbox Series X >
+        </button>
+      </div>
+      <div class="item flex flex-col space-y-2 md:w-1/5">
+        <div class="bg-[#f2f2f2] p-12 md:px-10 md:py-5">
+          <img
+            class="self-center mx-auto md:w-3/4"
+            src="/assets/XboxSeriesS-IUg8nPsm.png"
+            alt=""
+          />
+        </div>
+        <div class="text-xl font-semibold md:text-3xl">Xbox Series S</div>
+        <p>Next-gen performance in the smallest Xbox ever.</p>
+        <button class="self-start py-3 text-[#0067b8] font-medium hover:underline">
+          Shop Xbox Series S >
+        </button>
+      </div>
+      <div class="item flex flex-col space-y-2 md:w-1/5">
+        <div class="bg-[#f2f2f2] p-12 md:px-10 md:py-7">
+          <img
+            class="self-center mx-auto"
+            src="/assets/surfaceLaptopStudio-dWmsHfEk.png"
+            alt=""
+          />
+        </div>
+        <div class="text-xl font-semibold md:text-3xl">
+          Surface Laptop Studio
+        </div>
+        <p>
+          Flex your creative muscle on the most powerful Surface Laptop. Now
+          available with Windows 11.
+        </p>
+        <button class="self-start py-3 text-[#0067b8] font-medium hover:underline">
+          Learn more >
+        </button>
+      </div>
+    </div>
+
+    <!-- Game promo -->
+    <div
+      class="slider flex flex-col-reverse mx-1 md:flex-row md:justify-center md:mx-20"
+    >
+      <div
+        class="left flex flex-col md:justify-center md:items-center md:bg-black md:text-white space-y-3 py-5 shadow-md md:pl-32 md:shadow-none md:space-y-5"
+      >
+        <h1 class="text-2xl font-semibold mx-7 md:text-4xl md:w-96">
+          Xbox Game Pass Ultimate
+        </h1>
+        <p class="mx-7 md:w-96">
+          Play new games on day one. Plus, enjoy hundreds of high-quality games
+          with friends on console and PC.
+        </p>
+        <!-- <div class="py-8 space-x-4 md:space-x-0"> -->
+        <button
+          class="bg-[#0067b8] text-sm text-white px-3 py-2 font-bold self-start mx-7"
+        >
+          Join Now
+        </button>
+        <!-- </div> -->
+      </div>
+      <div class="right">
+        <img class="md:w-full" src="/assets/gamePromo-SrLgeSXw.jpeg" alt="" />
+      </div>
+    </div>
+
+    <!-- Business products promo -->
+    <h3 class="mt-20 mx-3 text-2xl font-semibold md:mx-20 md:text-4xl">
+      For business
+    </h3>
+
+    <div
+      class="products flex flex-col p-3 space-y-10 md:flex-row md:p-0 md:py-10 md:space-y-0 md:space-x-12 md:justify-center"
+    >
+      <div class="item flex flex-col space-y-2 md:w-1/5">
+        <img class="self-center mx-auto" src="/assets/business1-CmwUsALG.avif" alt="" />
+        <div class="text-xl font-semibold md:text-3xl">
+          Surface for Business
+        </div>
+        <p>No matter what you do, there's a Surface to help you do it.</p>
+        <button class="self-start py-3 text-[#0067b8] font-medium hover:underline">
+          Shop now >
+        </button>
+      </div>
+      <div class="item flex flex-col space-y-2 md:w-1/5">
+        <img class="self-center mx-auto" src="/assets/business2-T9Qp4WO8.webp" alt="" />
+        <div class="text-xl font-semibold md:text-3xl">
+          Try Microsoft 365 for free
+        </div>
+        <p>
+          Get Microsoft Teams, secure cloud storage and premium apps across
+          devices with a free one-month Microsoft 365 Business Standard trial.
+        </p>
+        <button class="self-start py-3 text-[#0067b8] font-medium hover:underline">
+          Start your free trial >
+        </button>
+      </div>
+      <div class="item flex flex-col space-y-2 md:w-1/5">
+        <img class="self-center mx-auto" src="/assets/business3-2W2j0tG1.avif" alt="" />
+        <div class="text-xl font-semibold md:text-3xl">Join the era of AI</div>
+        <p>
+          Create, communicate, and code with the latest Microsoft AI solutions.
+        </p>
+        <button class="self-start py-3 text-[#0067b8] font-medium hover:underline">
+          Explore AI solutions >
+        </button>
+      </div>
+      <div class="item flex flex-col space-y-2 md:w-1/5">
+        <img class="self-center mx-auto" src="/assets/business4-l6ixk2Pi.webp" alt="" />
+
+        <div class="text-xl font-semibold md:text-3xl">
+          Get Microsoft Teams for free
+        </div>
+        <p>
+          Online meetings, chat and shared cloud storage - all in one place.
+        </p>
+        <button class="self-start py-3 text-[#0067b8] font-medium hover:underline">
+          Sign up for free >
+        </button>
+      </div>
+    </div>
+
+    <!-- Follow -->
+    <div class="follow mx-3 md:mx-20 flex space-x-7 my-10">
+      <p class="">Follow Microsoft</p>
+      <a href="#"
+        ><svg
+          class="h-6 w-6 text-black"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" />
+          <path
+            d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+          />
+        </svg>
+      </a>
+      <a href="#"
+        ><svg
+          class="h-6 w-6 text-black"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" />
+          <path
+            d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84 0 0 0 .497 -3.753C20.18 7.773 21.692 5.25 22 4.009z"
+          />
+        </svg>
+      </a>
+      <a href="#"
+        ><svg
+          class="h-6 w-6 text-black"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path
+            d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
+          />
+          <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Links -->
+    <div
+      class="last flex flex-col px-7 py-10 space-y-12 md:space-y-0 md:flex-row md:justify-between md:px-20 bg-[#f2f2f2]"
+    >
+      <div class="new flex flex-col text-[12px] space-y-5">
+        <h3 class="font-semibold text-base">What's new</h3>
+        <a class="hover:underline" href="#">Microsoft 365</a>
+        <a class="hover:underline" href="#">Games</a>
+        <a class="hover:underline" href="#">Surface Pro 9</a>
+        <a class="hover:underline" href="#">Surface Laptop 5</a>
+        <a class="hover:underline" href="#">Surface Laptop Go 2</a>
+        <a class="hover:underline" href="#">Windows 11 apps</a>
+      </div>
+      <div class="store flex flex-col text-[12px] space-y-5">
+        <h3 class="font-semibold text-base">Microsoft Store</h3>
+        <a class="hover:underline" href="#">Account profile</a>
+        <a class="hover:underline" href="#">Download Center</a>
+        <a class="hover:underline" href="#">Microsoft Store Support</a>
+        <a class="hover:underline" href="#">Returns</a>
+        <a class="hover:underline" href="#">Order tracking</a>
+      </div>
+      <div class="education flex flex-col text-[12px] space-y-5">
+        <h3 class="font-semibold text-base">Education</h3>
+        <a class="hover:underline" href="#">Microsoft in education</a>
+        <a class="hover:underline" href="#">Devices for education</a>
+        <a class="hover:underline" href="#">Microsoft Teams for education</a>
+        <a class="hover:underline" href="#">Microsoft 365 Education</a>
+        <a class="hover:underline" href="#">Office Education</a>
+        <a class="hover:underline" href="#">Educator training and development</a>
+        <a class="hover:underline" href="#">Deals for students and parents</a>
+        <a class="hover:underline" href="#">Azure for students</a>
+      </div>
+      <div class="business flex flex-col text-[12px] space-y-5">
+        <h3 class="font-semibold text-base">Business</h3>
+        <a class="hover:underline" href="#">Microsoft Cloud</a>
+        <a class="hover:underline" href="#">Microsoft Security</a>
+        <a class="hover:underline" href="#">Azure</a>
+        <a class="hover:underline" href="#">Dynamics 365</a>
+        <a class="hover:underline" href="#">Microsoft 365</a>
+        <a class="hover:underline" href="#">Microsoft Advertising</a>
+        <a class="hover:underline" href="#">Microsoft Industry</a>
+        <a class="hover:underline" href="#">Microsoft Teams</a>
+      </div>
+      <div class="developer&it flex flex-col text-[12px] space-y-5">
+        <h3 class="font-semibold text-base">Developer & IT</h3>
+        <a class="hover:underline" href="#">Developer Center</a>
+        <a class="hover:underline" href="#">Documentation</a>
+        <a class="hover:underline" href="#">Microsoft Learn</a>
+        <a class="hover:underline" href="#">Microsoft Tech Community</a>
+        <a class="hover:underline" href="#">Azure Marketplace</a>
+        <a class="hover:underline" href="#">AppSource</a>
+        <a class="hover:underline" href="#">Microsoft Power Platform</a>
+        <a class="hover:underline" href="#">Visual Studio</a>
+      </div>
+      <div class="company flex flex-col text-[12px] space-y-5">
+        <h3 class="font-semibold text-base">Company</h3>
+        <a class="hover:underline" href="#">Careers</a>
+        <a class="hover:underline" href="#">About Microsoft</a>
+        <a class="hover:underline" href="#">Company news</a>
+        <a class="hover:underline" href="#">Privacy at Microsoft</a>
+        <a class="hover:underline" href="#">Investors</a>
+        <a class="hover:underline" href="#">Security</a>
+        <a class="hover:underline" href="#">Sustainability</a>
+      </div>
+    </div>
+  </body>
+</html>
